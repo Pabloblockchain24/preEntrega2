@@ -1,0 +1,43 @@
+.CardItem{
+    background-color: rgb(214, 214, 214);
+    margin: 1%;
+    padding: 5%;
+    border-radius: 10px;
+    border: 2px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 90%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 3%;
+}
+
+.ItemImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 3%;
+
+}
+
+.ImgSize{
+    width: 70%;
+    height: 70%;
+
+}
+
+.buttonDetail{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}

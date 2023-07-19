@@ -1,0 +1,28 @@
+.fondoNavbar{
+    background-color: orange;
+    height: 10vh;
+}
+
+*{
+    padding: 0;
+     margin: 0;
+}
+
+.elementosNavbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickeables{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
